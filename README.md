@@ -40,7 +40,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: https://github.com/janeAnezi/Age-Calculator
+- Solution URL: https://github.com/FavourJumoke/Age-Calculator/tree/main
 - Live Site URL: https://janeanezi.github.io/Age-Calculator/
 
 ## My process
@@ -68,7 +68,7 @@ tailwind css animation animate
 placeholder styling placeholder:font-bold
 
 customising css theme
-exports.theme: {
+ exports.theme: {
     fontFamily: {
       'poppins': ['Poppins', 'sans-serif'],
       'display': ['Oswald'],
@@ -78,13 +78,13 @@ exports.theme: {
 ```js
 how to Convert milliseconds to years, months, and days
     Math.floor(dateDifference / (365.25 * 24 * 60 * 60 * 1000));
-```
+
 
 
 
 ### Continued development
 
-While completing this challenge, I became more comfortable with JavaScript and its interactions with HTML and CSS. To further enhance my skills, I plan to explore more advanced JavaScript concepts, improve the user interface, and ensure the application is responsive across various devices. 
+While completing this challenge, I became more comfortable with Tailwind css To further enhance my skills, I plan to explore more advanced JavaScript concepts, improve the user interface, and ensure the application is responsive across various devices. 
 
 ### Useful resources
 https://developer.mozilla.org/ - A comprehensive resource for web developers.
@@ -92,11 +92,11 @@ https://www.w3schools.com/ - A simplified and interactive learning resourse for 
 Frontend Mentor - A platform to practice coding by building realistic projects.
 ## Author
 
-- Website - http://janeanezi.github.io/Portfolio/
-- Frontend Mentor - https://www.frontendmentor.io/profile/janeAnezi
-- Twitter - https://twitter.com/AhnnieA
+- Website - https://www.behance.net/Fjjtalk
+- Frontend Mentor - https://www.frontendmentor.io/profile/FavourJumoke
+- Twitter- 
 
 
 ## Acknowledgments
 
-I would like to express my deepest gratitude to herTechTrail academy for providing this challenging project, helping me improve my coding skills. Special thanks to my coaches.
+i would like to appreciate herTechTrail academy for providing this challenging project, this project helped developed my coding skills. and i want to send a Special thanks to my coaches.
