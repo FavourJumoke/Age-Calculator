@@ -860,6 +860,10 @@ video {
     right: 40%;
   }
 
+  .sm\:right-\[6\%\] {
+    right: 6%;
+  }
+
   .sm\:mx-9 {
     margin-left: 2.25rem;
     margin-right: 2.25rem;
