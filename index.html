@@ -2,51 +2,59 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">  
-
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  
   <title>Age calculator app</title>
-   <link rel="stylesheet" href="./src/main.css">
-   
+  <link rel="stylesheet" href="./src/main.css">
+  
 </head>
-<body class="relative font-poppins h-screen flex items-center justify-center bg-lime-600 dark:bg-slate-300">
-  <div id="togglebtn" class="absolute top-16  right-16  animate-pulse  w-7 h-3 bg-slate-200 rounded-xl"><p class="absolute inner-circle w-3 h-3 rounded-full bg-slate-100"></p></div>
-  <div class="min-w-[375px] bg-white pl-5 pr-25 sm:mx-9 py-5 rounded-lg rounded-br-[99px] ">
+<body class="relative font-poppins h-screen flex items-center justify-center bg-slate-100 dark:bg-slate-300">
+  <!-- toggle button start-->
+  <div id="togglebtn" class="absolute top-16  right-16  animate-pulse  w-6 h-3 bg-slate-600 rounded-xl"><p class="absolute inner-circle w-3 h-3 rounded-full bg-white"></p></div>
+  <!-- toggle button end-->
+  <div class="min-w-[375px] bg-white pl-5 pr-5 sm:mx-9 py-5 rounded-lg rounded-br-[99px] ">
     <form>
+     <!-- input start -->
       <div class="flex flex-wrap space-x-4">
-        <label for="day"><span id="label-day" class="smaller-text">DAY</span> 
-          <p><input id ="day"style=font-size:small class="text-black font-bold inline-block lg:w-24 sm:w-[70px] placeholder:font-bold p-2 text-left border rounded-md" type="text" name="day"  placeholder="DD"  required ></p>
-          <p id="day-result" class="small-text"></p>
+        <!-- day input start-->
+        <label for="day"><span id="label-day" class="text-[8px] font-bold text-gray-500 tracking-widest">DAY</span> 
+          <br><input id="day" class="text-black font-bold inline-block lg:w-20 sm:w-16 placeholder:font-bold pl-3 p-1  border rounded-md" type="text" name="day"  placeholder="DD"  required></p>
+          <i id="day-result" class="text-[9px] text-red-500 italic"></i>
         </label>
-        <label for="month"><span id="label-month" class="smaller-text" >MONTH</span>
-          <p><input id="month"style=font-size:small class="text-black font-bold inline-block lg:w-24 sm:w-[70px] placeholder:font-bold p-2 text-left border rounded-md" type="text" name="month"  placeholder="MM"  required></p>
-          <p id="month-result" class="small-text"></p>
+        <!-- day input end -->
+        <label for="month"><span id="label-month" class="text-[8px] font-bold text-gray-500 tracking-widest" >MONTH</span>
+          <br><input id="month" class="text-black font-bold inline-block lg:w-20 sm:w-16 placeholder:font-bold p-1 pl-3 border rounded-md" type="text" name="month"  placeholder="MM"  required></p>
+          <i id="month-result" class="text-[9px] text-red-500 italic"></i>
         </label>
-        <label for="year"><span id="label-year" class="smaller-text">YEAR</span> 
-          <p><input id="year"style=font-size:small class="text-black font-bold inline-block lg:w-24 sm:w-[70px] placeholder:font-bold p-2 text-left border rounded-md" type="text" name="year" placeholder="YYYY"  required></p>
-          <p id="year-result" class="small-text"></p>
+        <label for="year"><span id="label-year" class="text-[8px] font-bold text-gray-500 tracking-widest">YEAR</span> 
+          <br><input id="year" class="text-black font-bold inline-block lg:w-20 sm:w-16 placeholder:font-bold p-1 pl-3 border rounded-md" type="text" name="year" placeholder="YYYY"  required></p>
+          <i id="year-result" class="text-[9px] text-red-500 italic"></i>
         </label>
       </div>
+      <!-- input end -->
+      <!--  -->
+
+    
       
 
-      <div class="relative my-7">
-        <div class="border-t border-gray-300 bg-slate-200 mt-1 inline-block w-96 sm:w-80"></div>
-        <img id="img" class="bg-purple-600 active:bg-slate-950 rounded-full p-2 absolute sm:right-[6%] lg:right-0 -top-1 w-10 h-10 cursor-pointer " src="./assets/images/icon-arrow.svg" alt="icon arrow svg">
+      <div class="relative my-3">
+        <div class="h-0.5 bg-slate-200 mt-1 inline-block w-96 sm:w-80"></div>
+        <img id="img" class="bg-violet-600 active:bg-slate-950 rounded-full p-2 absolute sm:right-[47%] lg:right-0 -top-1 w-10 h-10 cursor-pointer " src="./assets/images/icon-arrow.svg" alt="icon arrow svg">
       </div>
       
     </form>
 
-    
 
     <div>
-      <p class="font-extrabold text-5xl italic"><span id="displayYear" class="text-purple-600 output ">--</span> years</p>
-      <p class="font-extrabold text-5xl italic"><span id="displayMonth" class="text-purple-600 output">--</span> months</p>
-      <p class="font-extrabold text-5xl italic"><span id="displayDay" class="text-purple-600 output">--</span> days</p>
+      <p class="font-extrabold text-5xl italic "><span id="displayYear" class="text-violet-600 ">- -</span> years</p>
+      <p class="font-extrabold text-5xl italic "><span id="displayMonth" class="text-violet-600">- -</span> months</p>
+      <p class="font-extrabold text-5xl italic "><span id="displayDay" class="text-violet-600">- -</span> days</p>
     </div>
 
+  </div>
+
+
   
-  
-<script src="./src/main.js"></script>
+  <script src="./src/main.js"></script>
 </body>
 </html>
